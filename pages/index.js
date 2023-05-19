@@ -29,7 +29,7 @@ export default function Home() {
         }}
       >
         <Head>
-          <title>DeGore Dashboard</title>
+          <title></title>
           <meta name="title" content="DeGore Dashboard" />
           <meta
             name="description"
@@ -90,7 +90,7 @@ export default function Home() {
             transition={{ ease: [0.42, 0, 0, 1.08], duration: 1.5, delay: 1 }}
           >
             <Text h1 className={styles.title}>
-              The DeGore Dashboard is on its way.
+              
             </Text>
           </motion.div>
           <motion.div
@@ -98,7 +98,7 @@ export default function Home() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ ease: [0.42, 0, 0, 1.08], duration: 1, delay: 1.5 }}
           >
-            <Text h2>Check back soon!</Text>
+            <Text h2></Text>
           </motion.div>
           <Spacer />
           <motion.div
@@ -130,7 +130,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Join our support server
+                
               </a>
             </Button>
           </motion.div>
