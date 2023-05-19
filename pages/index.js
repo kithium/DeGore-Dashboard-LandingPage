@@ -81,7 +81,7 @@ export default function Home() {
             animate={{ rotate: 360, opacity: 1 }}
             transition={{ ease: [0.42, 0, 0, 1.08], duration: 2 }}
           >
-            <Image src="/logo.png" alt="DeGore Logo" width={200} height={200} />
+            <Image src="/" alt="" width={200} height={200} />
           </motion.div>
           <Spacer />
           <motion.div
@@ -89,22 +89,7 @@ export default function Home() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ ease: [0.42, 0, 0, 1.08], duration: 1.5, delay: 1 }}
           >
-            <Text h1 className={styles.title}>
-              
-            </Text>
-          </motion.div>
-          <motion.div
-            initial={{ y: 100, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ ease: [0.42, 0, 0, 1.08], duration: 1, delay: 1.5 }}
-          >
-            <Text h2></Text>
-          </motion.div>
-          <Spacer />
-          <motion.div
-            initial={{ opacity: 0, y: 40 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ ease: [0.42, 0, 0, 1.08], duration: 2, delay: 2 }}
+            
           >
             <Button shadow color="gradient" size="xl">
               <a
@@ -113,7 +98,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Check out the in-development version
+                
               </a>
             </Button>
           </motion.div>
